@@ -1,16 +1,16 @@
-# Data-Analytics-1-Stats-ML
+#Stats&ML
 
 
-Day 1: Exploratory Data Analysis on a Real-World Dataset
-Motivation: I wanted to enhance my data analysis skills by working with a real-world dataset, performing statistical analysis, and visualizing key insights.
+Day 1
+Exploratory Data Analysis on a Real-World Dataset: I wanted to enhance my data analysis skills by working with a real-world dataset, performing statistical analysis, and visualizing key insights.
 Steps:
 	•	Loaded a benchmark dataset from a real-world source.
 	•	Conducted descriptive statistical analysis, including measures of central tendency and dispersion.
 	•	Created meaningful visualizations to uncover patterns and trends in the dataset.
 
 
-Day 2: Understanding Sampling Techniques and the Central Limit Theorem
-Motivation: I was curious about how different sampling methods impact statistical analysis and wanted to explore the Central Limit Theorem in action.
+Day 2 
+Understanding Sampling Techniques and the Central Limit Theorem: I was curious about how different sampling methods impact statistical analysis and wanted to explore the Central Limit Theorem in action.
 Dataset: Used the Iris dataset to apply different sampling techniques.
 Steps:
 	•	Loaded the dataset and explored its structure.
@@ -19,8 +19,8 @@ Steps:
 	•	Implemented systematic sampling by selecting 20% of the dataset with a custom function and compared it with the original dataset.
 
 
-Day 3: Statistical Hypothesis Testing on the Iris Dataset
-Motivation: I wanted to deepen my understanding of hypothesis testing by applying statistical tests to compare different species in the Iris dataset.
+Day 3
+Statistical Hypothesis Testing on the Iris Dataset: I wanted to deepen my understanding of hypothesis testing by applying statistical tests to compare different species in the Iris dataset.
 Steps:
 	•	T-Test: Compared the mean petal lengths of Setosa and Versicolor to determine if they differ significantly.
 	•	Z-Test: Tested whether the mean sepal length of a species equals a predefined value (5.0).
@@ -28,16 +28,16 @@ Steps:
 	•	Correlation & Regression: Explored the relationship between sepal length and petal length using statistical techniques.
 
 
-Day 4: Finding and Exploring a New Dataset for Analysis
-Motivation: I wanted to practice dataset selection and exploratory analysis by working with a dataset of my choice.
+Day 4
+Finding and Exploring a New Dataset for Analysis: I wanted to practice dataset selection and exploratory analysis by working with a dataset of my choice.
 Steps:
 	•	Researched and selected a dataset with at least 1,000 rows.
 	•	Examined its structure, features, and relevance.
 	•	Documented insights on why I chose the dataset and how it helps in learning data analysis concepts.
 
 
-Day 5: Data Preprocessing and Feature Selection
-Motivation: Data preprocessing is crucial for building effective machine learning models. I practiced handling missing values, scaling, outlier detection, and feature selection techniques.
+Day 5
+Data Preprocessing and Feature Selection: Data preprocessing is crucial for building effective machine learning models. I practiced handling missing values, scaling, outlier detection, and feature selection techniques.
 Steps:
 	•	Handling Missing Values: Identified and imputed missing data using appropriate techniques (mean, median, mode, or predictive modeling).
 	•	Scaling Data: Applied Z-score standardization and Min-Max normalization to numerical features.
@@ -50,11 +50,9 @@ Steps:
 
 
 
-Day 6:
-Problem 1: Handwritten Digit Classification using a Feedforward Neural Network (FNN)
-
+Day 6
+#1: Handwritten Digit Classification using a Feedforward Neural Network (FNN)
 Objective: Develop a deep learning model to classify handwritten digits (0-9) using the MNIST dataset.
-
 Dataset
 	•	The MNIST dataset consists of 60,000 training images and 10,000 test images, each representing a 28x28 grayscale handwritten digit.
 	•	Labels range from 0 to 9, corresponding to the digit in the image.
@@ -72,10 +70,8 @@ Evaluation
 	•	Classification metrics (precision, recall, F1-score) show strong performance across all digit classes.
 
 
-Problem 2: Predicting a Continuous Target Using a Regression Neural Network
-
+#2: Predicting a Continuous Target Using a Regression Neural Network
 Objective: Build a neural network to predict a continuous target variable based on input features.
-
 Dataset
 	•	A synthetic dataset is generated, where:
 	•	Input (X) consists of 1000 samples, each with 5 features.
