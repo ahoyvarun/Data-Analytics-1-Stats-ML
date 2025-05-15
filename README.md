@@ -25,10 +25,10 @@ Dataset: Used the Iris dataset to apply different sampling techniques.
 ## Day 3 
 **Statistical Hypothesis Testing on the Iris Dataset:** I wanted to deepen my understanding of hypothesis testing by applying statistical tests to compare different species in the Iris dataset. 
 **Steps:** 
- • T-Test: Compared the mean petal lengths of Setosa and Versicolor to determine if they differ significantly. 
- • Z-Test: Tested whether the mean sepal length of a species equals a predefined value (5.0). 
- • ANOVA: Compared mean petal widths across all three species to check for significant differences.
- • Correlation & Regression: Explored the relationship between sepal length and petal length using statistical techniques.
+ - T-Test: Compared the mean petal lengths of Setosa and Versicolor to determine if they differ significantly. 
+ - Z-Test: Tested whether the mean sepal length of a species equals a predefined value (5.0). 
+ - ANOVA: Compared mean petal widths across all three species to check for significant differences.
+ - Correlation & Regression: Explored the relationship between sepal length and petal length using statistical techniques.
 
 ---
 
