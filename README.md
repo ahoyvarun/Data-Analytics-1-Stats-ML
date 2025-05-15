@@ -56,12 +56,12 @@ Dataset: Used the Iris dataset to apply different sampling techniques.
 ---
 
 ## Day 6
-# 1: Handwritten Digit Classification using a Feedforward Neural Network (FNN) Objective: Develop a deep learning model to classify handwritten digits (0-9) using the MNIST dataset. 
+## 1: Handwritten Digit Classification using a Feedforward Neural Network (FNN) Objective: Develop a deep learning model to classify handwritten digits (0-9) using the MNIST dataset. 
 **Dataset:**
  - The MNIST dataset consists of 60,000 training images and 10,000 test images, each representing a 28x28 grayscale handwritten digit.
  - Labels range from 0 to 9, corresponding to the digit in the image.
 
-# Approach: 
+## Approach: 
 A feedforward neural network (FNN) is implemented using TensorFlow/Keras.
 The model architecture: 
    - Flatten layer: Converts 28x28 images into a 1D array.
@@ -69,22 +69,22 @@ The model architecture:
    - Output layer: 10 neurons with Softmax activation for multi-class classification. 
    - The model is trained using Adam optimizer and Sparse Categorical Crossentropy loss.
 
-# Evaluation:
+## Evaluation:
  - The model achieves 98% accuracy on the test dataset.
  - Classification metrics (precision, recall, F1-score) show strong performance across all digit classes.
 
-# 2: Predicting a Continuous Target Using a Regression Neural Network Objective: Build a neural network to predict a continuous target variable based on input features.
+## 2: Predicting a Continuous Target Using a Regression Neural Network Objective: Build a neural network to predict a continuous target variable based on input features.
 **Dataset:**
 A synthetic dataset is generated, where: 
     - Input (X) consists of 1000 samples, each with 5 features.  
     - The target (Y) is the sum of the feature values with added noise.
 
-# Approach:
+## Approach:
 A feedforward neural network (FNN) is implemented for regression: 
    - Input layer: 5 features. 
    - Hidden layers: 64 neurons (ReLU) → 32 neurons (ReLU). 
    - Output layer: 1 neuron (Linear activation) for regression output. 
    - Model trained using Adam optimizer and Mean Squared Error (MSE) loss.
 
-# Evaluation: 
+## Evaluation: 
 The model achieves a Root Mean Squared Error (RMSE) of ~0.14, indicating a good fit to the data.
